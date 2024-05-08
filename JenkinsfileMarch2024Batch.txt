@@ -1,6 +1,6 @@
 node{
     
-def mavenHome = tool name: 'maven3.9.5'
+def mavenHome = tool name: 'maven3.9.6'
 
 echo "The Job name is : ${env.JOB_NAME}"
 echo "Jenkins Home dir is: ${env.JENKINS_HOME}"
